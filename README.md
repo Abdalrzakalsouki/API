@@ -12,8 +12,8 @@ A collection of my small backend and REST API projects. Each one used to live in
 
 ## Running
 
-- **TasksAPI**: `npm install`, then set `JWT_SECRET`, `SENDGRID_API_KEY` and your MongoDB connection settings as environment variables and start it from `src/index.js`.
-- **Management-dashbored**: `npm install`, then run `index.ts` (database settings are in `config/db.ts`).
+- **TasksAPI**: `npm install`, then set `MONGODB_URL`, `JWT_SECRET` and `SENDGRID_API_KEY` as environment variables, then `npm start`.
+- **Management-dashbored**: `npm install`, set `DATABASE_CONNECTION_URL` to your MongoDB connection string, then `npm run dev`.
 - **BuildingRestAPI**: `dotnet run` from the project folder.
 
 ## History
